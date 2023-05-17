@@ -1,0 +1,98 @@
+.body-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#5d50f8, #6f0aef);
+}
+.form-title {
+  font: normal bold 28px/1 "Bona Nova";
+  padding: 1rem 0;
+  text-align: center;
+}
+.main-title {
+  text-align: center;
+  font: normal bold 40px/1 "Montserrat";
+  padding: 2rem 0;
+  letter-spacing: 1px;
+  color: white;
+}
+.travel-form-main {
+  width: 520px;
+  height: max-content;
+  padding: 20px 65px;
+  border: 1px solid #e7e7e7;
+  border-radius: 7px;
+  background-color: white;
+}
+input {
+  width: 100%;
+  outline: none;
+  padding: 5px 20px;
+  border: 2px solid #e7e7ee;
+  border-radius: 50px;
+  margin-bottom: 18px !important;
+  font: normal 14px/1 "Montserrat";
+}
+label {
+  font: normal bold 14px/1 "Montserrat";
+  margin-bottom: 12px;
+}
+
+/* Style the dropdown options */
+
+.select2__select {
+  width: 200px;
+}
+.select2-results__option {
+  padding: 8px;
+  height: 40px;
+  font: normal bold 15px/1 "Bona Nova";
+}
+.select-div {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 10px 0;
+}
+.select-div label {
+  font: normal bold 15px/1 "Montserrat";
+  margin-bottom: 10px;
+}
+
+/* Submit Button  */
+.submit-btn {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px 0;
+  background: linear-gradient(#5d50f8, #6f0aef);
+  font: normal bold 17px/1 "Bona Nova";
+  color: white;
+  margin: 1rem 0;
+}
+
+/* Lists Page */
+
+.list-main {
+  padding: 2rem 12rem;
+  height: 100vh;
+  background: linear-gradient(#5d50f8, #6f0aef);
+}
+.list-top {
+  display: flex;
+  align-items: center;
+}
+.table {
+  border: 1px solid #e7e7e7;
+  color: white;
+}
+tbody tr {
+  transition: 0.5s all ease-in-out;
+}
+tbody tr:hover {
+  transform: scale(1.05);
+  color: black;
+}
